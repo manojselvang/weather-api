@@ -68,14 +68,14 @@ http://localhost:5000
 
 ## .dockerignore
 
-The project also uses `.dockerignore` to prevent unnecessary files from being sent to the Docker daemon during the build.
+`.dockerignore` to prevent unnecessary files from being sent to the Docker daemon during the build.
 
 ```text
 logs/
 .git/
 ```
 
-This is especially useful when the application directory contains large log files or Git history.
+Useful to ignore large log files or Git history present inside application directory (/app).
 
 ## What I Learned
 
